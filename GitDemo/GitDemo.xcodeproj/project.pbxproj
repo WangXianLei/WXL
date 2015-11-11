@@ -15,6 +15,7 @@
 		C59984D11BF320B4004F922B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C59984CF1BF320B4004F922B /* LaunchScreen.xib */; };
 		C59984DD1BF320B4004F922B /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C59984DC1BF320B4004F922B /* GitDemoTests.m */; };
 		C59984F41BF330AA004F922B /* ViewControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = C59984F31BF330AA004F922B /* ViewControllerB.m */; };
+		C59984ED1BF32958004F922B /* ViewControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = C59984EC1BF32958004F922B /* ViewControllerA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		C59984DC1BF320B4004F922B /* GitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoTests.m; sourceTree = "<group>"; };
 		C59984F21BF330AA004F922B /* ViewControllerB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerB.h; sourceTree = "<group>"; };
 		C59984F31BF330AA004F922B /* ViewControllerB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerB.m; sourceTree = "<group>"; };
+		C59984EB1BF32958004F922B /* ViewControllerA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerA.h; sourceTree = "<group>"; };
+		C59984EC1BF32958004F922B /* ViewControllerA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerA.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,7 @@
 		C59984BF1BF320B4004F922B /* GitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C59984EA1BF32942004F922B /* a */,
 				C59984C41BF320B4004F922B /* AppDelegate.h */,
 				C59984C51BF320B4004F922B /* AppDelegate.m */,
 				C59984C71BF320B4004F922B /* ViewController.h */,
@@ -122,6 +126,15 @@
 				C59984DB1BF320B4004F922B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C59984EA1BF32942004F922B /* a */ = {
+			isa = PBXGroup;
+			children = (
+				C59984EB1BF32958004F922B /* ViewControllerA.h */,
+				C59984EC1BF32958004F922B /* ViewControllerA.m */,
+			);
+			name = a;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C59984ED1BF32958004F922B /* ViewControllerA.m in Sources */,
 				C59984C91BF320B4004F922B /* ViewController.m in Sources */,
 				C59984F41BF330AA004F922B /* ViewControllerB.m in Sources */,
 				C59984C61BF320B4004F922B /* AppDelegate.m in Sources */,
