@@ -14,8 +14,9 @@
 		C59984CE1BF320B4004F922B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59984CD1BF320B4004F922B /* Images.xcassets */; };
 		C59984D11BF320B4004F922B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C59984CF1BF320B4004F922B /* LaunchScreen.xib */; };
 		C59984DD1BF320B4004F922B /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C59984DC1BF320B4004F922B /* GitDemoTests.m */; };
-		C59984F41BF330AA004F922B /* ViewControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = C59984F31BF330AA004F922B /* ViewControllerB.m */; };
 		C59984ED1BF32958004F922B /* ViewControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = C59984EC1BF32958004F922B /* ViewControllerA.m */; };
+		C59984F41BF330AA004F922B /* ViewControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = C59984F31BF330AA004F922B /* ViewControllerB.m */; };
+		C59984F81BF33EB5004F922B /* ViewControllerC.m in Sources */ = {isa = PBXBuildFile; fileRef = C59984F71BF33EB5004F922B /* ViewControllerC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +43,12 @@
 		C59984D61BF320B4004F922B /* GitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59984DB1BF320B4004F922B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C59984DC1BF320B4004F922B /* GitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoTests.m; sourceTree = "<group>"; };
-		C59984F21BF330AA004F922B /* ViewControllerB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerB.h; sourceTree = "<group>"; };
-		C59984F31BF330AA004F922B /* ViewControllerB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerB.m; sourceTree = "<group>"; };
 		C59984EB1BF32958004F922B /* ViewControllerA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerA.h; sourceTree = "<group>"; };
 		C59984EC1BF32958004F922B /* ViewControllerA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerA.m; sourceTree = "<group>"; };
+		C59984F21BF330AA004F922B /* ViewControllerB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerB.h; sourceTree = "<group>"; };
+		C59984F31BF330AA004F922B /* ViewControllerB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerB.m; sourceTree = "<group>"; };
+		C59984F61BF33EB5004F922B /* ViewControllerC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerC.h; sourceTree = "<group>"; };
+		C59984F71BF33EB5004F922B /* ViewControllerC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,7 @@
 		C59984BF1BF320B4004F922B /* GitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C59984F51BF33EA5004F922B /* c */,
 				C59984EA1BF32942004F922B /* a */,
 				C59984C41BF320B4004F922B /* AppDelegate.h */,
 				C59984C51BF320B4004F922B /* AppDelegate.m */,
@@ -135,6 +139,15 @@
 				C59984EC1BF32958004F922B /* ViewControllerA.m */,
 			);
 			name = a;
+			sourceTree = "<group>";
+		};
+		C59984F51BF33EA5004F922B /* c */ = {
+			isa = PBXGroup;
+			children = (
+				C59984F61BF33EB5004F922B /* ViewControllerC.h */,
+				C59984F71BF33EB5004F922B /* ViewControllerC.m */,
+			);
+			name = c;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +252,7 @@
 			files = (
 				C59984ED1BF32958004F922B /* ViewControllerA.m in Sources */,
 				C59984C91BF320B4004F922B /* ViewController.m in Sources */,
+				C59984F81BF33EB5004F922B /* ViewControllerC.m in Sources */,
 				C59984F41BF330AA004F922B /* ViewControllerB.m in Sources */,
 				C59984C61BF320B4004F922B /* AppDelegate.m in Sources */,
 				C59984C31BF320B4004F922B /* main.m in Sources */,
